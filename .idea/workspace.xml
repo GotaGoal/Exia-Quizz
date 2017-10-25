@@ -202,12 +202,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508920093759</updated>
-      <workItem from="1508920096427" duration="10680000" />
+      <workItem from="1508920096427" duration="10707000" />
     </task>
+    <task id="LOCAL-00001" summary="modification interface utilisateur :smiley:">
+      <created>1508944146017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508944146017</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10680000" />
+    <option name="totallyTimeSpent" value="10707000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -235,6 +243,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="modification interface utilisateur :smiley:" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification interface utilisateur :smiley:" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
