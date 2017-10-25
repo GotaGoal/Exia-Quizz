@@ -1,0 +1,14 @@
+{
+  "name": "allemand-corentin.fr",
+  "version": "1.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^3.1.0",
+    "require-dir": "^0.3.0"
+  }
+}
