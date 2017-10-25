@@ -1,0 +1,9 @@
+html {
+  height: 100%; }
+
+.global-wrapper {
+  height: 100%; }
+
+.wrapper {
+  min-height: 100%;
+  position: relative; }
