@@ -69,5 +69,162 @@ html {
 .btn:active {
   outline: none !important; }
 
-#container-question {
+.container-question {
   display: none; }
+  .container-question.active {
+    width: 660px;
+    display: block;
+    min-height: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%); }
+
+.bloc-question {
+  height: 100%;
+  background-color: #222222;
+  box-shadow: 2px 2px 15px black;
+  overflow: scroll; }
+
+.intitule-question {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+.question {
+  background-color: #75ba48;
+  padding: 20px;
+  color: #fff;
+  border-bottom-right-radius: 55px;
+  border-top-left-radius: 55px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px; }
+
+.title-question {
+  font-size: 19px;
+  font-weight: normal; }
+
+.qid {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  color: #aaaaaa;
+  height: 20px; }
+
+.container-reponse {
+  width: 70%;
+  margin-top: 10px; }
+
+.container ul {
+  list-style: none;
+  margin-left: 45px;
+  padding: 0; }
+
+ul li {
+  color: #AAAAAA;
+  display: block;
+  position: relative;
+  float: left;
+  width: 120%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #111111; }
+
+ul li input[type=radio] {
+  position: absolute;
+  visibility: hidden; }
+
+ul li label {
+  display: block;
+  position: relative;
+  font-weight: normal;
+  padding: 15px 15px 5px 80px;
+  margin: 0px auto;
+  z-index: 9;
+  cursor: pointer;
+  -webkit-transition: all 0.25s linear; }
+
+ul li:hover label {
+  color: #FFFFFF; }
+
+ul li .check {
+  display: block;
+  position: absolute;
+  border: 5px solid #AAAAAA;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  top: 11px;
+  left: 20px;
+    left-z-index: 5;
+    left-transition: border .25s linear;
+    left--webkit-transition: border .25s linear; }
+
+ul li:hover .check {
+  border: 5px solid #FFFFFF; }
+
+ul li .check::before {
+  display: block;
+    display-position: absolute;
+    display-content: '';
+    display-border-radius: 100%;
+    display-height: 14px;
+    display-width: 14px;
+    display-top: 3px;
+    display-left: 3px;
+  margin: auto;
+    margin-transition: background 0.25s linear;
+    margin--webkit-transition: background 0.25s linear; }
+
+input[type=radio]:checked ~ .check {
+  border: 5px solid #75ba48; }
+
+input[type=radio]:checked ~ .check::before {
+  background: #75ba48; }
+
+input[type=radio]:checked ~ label {
+  color: #75ba48; }
+
+.form {
+  width: 250px;
+  margin: 0 auto; }
+
+form.login input[type="text"], form.login input[type="password"] {
+  width: 50%;
+  margin: 0;
+  padding: 5px 10px;
+  background: #fff;
+  border: 0;
+  border-bottom: 3px solid #75ba48;
+  outline: 0;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  color: #000;
+  outline: 0; }
+
+form.login input[type="submit"] {
+  width: 100%;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-top: 16px;
+  outline: 0;
+  cursor: pointer;
+  letter-spacing: 1px; }
+
+form.login input[type="submit"]:hover {
+  transition: background-color 0.5s ease; }
+
+.input-response {
+  margin-top: 50px;
+  margin-left: 50px; }
+
+#submit_on {
+  float: right;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px; }

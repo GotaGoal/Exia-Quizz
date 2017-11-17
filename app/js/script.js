@@ -6,6 +6,7 @@ function augmentediv() {
         if (a == 60) {
             $('#bouton-demarrage').css("display","none");
 
+
             clearInterval(id);
             var b = 60;
             var idb = setInterval(incrementeB,15);
@@ -15,6 +16,9 @@ function augmentediv() {
                 {
                     clearInterval(idb);
                     $('#page-accueil').remove();
+                    $('.container-question').addClass('active');
+
+
                 }
                 else {
                     $('#div-top').css("height",b+"%");
@@ -36,4 +40,10 @@ function augmentediv() {
 
 
 
+}
+
+function next(id,reponse)
+{
+    alert(reponse);
+    alert("ok");
 }
