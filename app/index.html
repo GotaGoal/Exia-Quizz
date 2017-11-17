@@ -2,9 +2,9 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
         <meta charset="utf-8">
-        <title>Ecolor</title>
+        <title>Exia Quizz</title>
         <meta name="description" content="">
-        <meta name="author" content="ALLEMAND Corentin">
+        <meta name="author" content="LESPINASSE Nicolas - GARDIEN Benjamin">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/lib/normalize.css">
         <link rel="stylesheet" href="css/lib/bootstrap.css">
@@ -15,617 +15,55 @@
 
     </head>
     <body>
+
+
     <script src="js/lib/jquery-3.2.1.min.js"></script>
     <script src="js/lib/bootstrap.js"></script>
     <script src="js/script.js"></script>
-        <div class="global-wrapper">
+        <div class="global-wrapper" id="particles-js">
+            <script src="js/lib/particles.js"></script>
+            <script src="js/app.js"></script>
+
             <header>
-                <!-- Navigation -->
-                <nav class="navbar navbar-default navbar-fixed-top backgroundNav" role="navigation">
-                    <div class="container">
-                        <div class="navbar-header page-scroll">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                                <span class="sr-only">Toggle navigation</span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                                <span class="icon-bar"></span>
-                            </button>
-                            <a class="navbar-brand"><img src="images/ecolorlogo.jpg" alt="Logo Ecolor"></a>
-                        </div>
 
-                        <!-- Collect the nav links, forms, and other content for toggling -->
-                        <div class="collapse navbar-collapse navbar-ex1-collapse">
-
-                            <ul id="menu" class="nav navbar-nav navbar-center">
-                                <li data-menuanchor="firstPage"><a href="#firstPage"><span>ACCUEIL<span></a></li>
-                                <li data-menuanchor="secondPage"><a href="#2ndpage"><span>NOS SERVICES</span></a></li>
-                                <li data-menuanchor="outilPage"><a href="outil.html" target="_blank"><span>OUTILS</span></a></li>
-                                <li data-menuanchor="3rdPage"><a href="#3rdPage"><span>L'ÉQUIPE</span></a></li>
-                                <li data-menuanchor="4thpage"><a href="#4thpage"><span>MÉCÉNAT</span></a></li>
-                                <li data-menuanchor="5thpage"><a href="#5thpage"><span>RECRUTEMENT</span></a></li>
-                                <li data-menuanchor="6thpage"><a href="#6thpage"><span>GALERIE</span></a></li>
-                                <li data-menuanchor="7thpage"><a href="#7thpage"><span>CONTACT</span></a></li>
-                            </ul>
-                        </div>
-                        <!-- /.navbar-collapse -->
-                    </div>
-                    <!-- /.container -->
-                </nav>
 
             </header>
                 <div class="wrapper">
-                    <div id="illustration">
-                        <div id="top-tittle">
-                            <h1 id="illustration-tittle" class="posabs">Notre expertise au service de vos projets<br>d’aménagement du territoire</h1>
-                        </div>
-                        <div id="illustration-circle" class="posabs">
-                            <div id="illustration-circle-text">
-                                <img id="illustration-tel" src="images/speech-bubble.svg" alt="téléphone">
-                                <p id="illustration-circle-text-question">Besoin d'un renseignement ?</p>
-                                <p id="illustration-circle-text-phrase">Nous sommes disponibles pour répondre à vos questions :</p>
-                                <p id="illustration-circle-text-numero"><a href="tel:0387030080">03 87 03 00 80</a></p>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div id="service" class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-service">
-                                <span>NOS SERVICES<span>
-                            </div>
+
+
+
+                    <div class="container-fluid" id="page-accueil">
+
+                        <div id="div-top" class="row">
+
                         </div>
-                        <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12 description">
-                                <p class="smart-description"><strong>ECOLOR est un bureau d’études aux compétences pluridisciplinaires et complémentaires.</strong></p>
-                                <p id="long-description">Il intervient en tant qu’expert dans tous les domaines de l’aménagement du territoire : création/modification d’infrastructures de transport
-                                    (LGV, autoroutes, routes, etc.), aménagements fonciers, création/extension de carrières, création de lotissements, de zones d’activités, infrastructures
-                                    d’énergies renouvelables (parcs éoliens ou photovoltaïques, etc.), urbanisme, etc. Lors de chaque étude, ECOLOR recherche les meilleures solutions
-                                    pour réaliser un projet respectueux de la faune et de la flore, en fonction des contraintes techniques et économiques. ECOLOR intervient
-                                    également en tant que spécialiste de la gestion des milieux naturels : réalisation d’inventaires, de plans de gestion, cartographie d’habitats
-                                    biologiques en site Natura 2000, réalisation de DOCOB, etc...</p>
-                            </div>
-                        </div>
-                        <div class="row" id="container-photo">
-                            <div class="col-lg-2  col-sm-6 col-xs-6 col-lg-offset-1" >
-                                <img  class="img-circle center-block img-service" src="images/services/river.svg">
-                                <h2 class="text-center titre-services"><a href="test">EXPERTISE <br>FAUNE-FLORE</a></h2>
-                            </div>
-                            <div class="col-lg-2  col-sm-6 col-xs-6" >
-                                <img  class="img-circle center-block img-service" src="images/services/amenagement.svg">
-                                <h2 class="text-center titre-services"><a>AMENAGEMENT DU<br>TERRITOIRE</a></h2>
-                            </div>
-                            <div class="col-lg-2 col-sm-6 col-xs-6" >
-                                <img  class="img-circle center-block img-service" src="images/services/cityscape.svg">
-                                <h2 class="text-center titre-services"><a>URBANISME</a></h2>
-                            </div>
-                            <div class="col-lg-2 col-sm-6 col-xs-6" >
-                                <img  class="img-circle center-block img-service" src="images/services/whale.svg">
-                                <h2 class="text-center titre-services"><a>HYDROLOGIE<br>HYDROÉCOLOGIE</a></h2>
-                            </div>
-                            <div class="col-lg-2  col-sm-6 col-xs-6" >
-                                <img class="img-circle center-block img-service" src="images/services/microscope.svg">
-                                <h2 class="text-center titre-services"><a>SUIVIS<br>SCIENTIFIQUES</a></h2>
-                            </div>
+                       <div class="row" id="container-bouton-demarrage">
+
+
+                           <button id="bouton-demarrage" class="btn btn-primary" onclick="augmentediv()">EXIA QUIZZ<br>CLIQUEZ POUR COMMENCER</button>
+                       </div>
+                        <div id="div-bottom" class="row">
 
                         </div>
                     </div>
 
-                    <div class="container">
-                        <div class="row" style="margin-top: 40px;">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-equipe">
-                                <span>L'ÉQUIPE</span>
-                            </div>
-                        </div>
 
-                        <div class="row" style="margin-top: 40px;">
-                            <div class="col-sm-4 col-sm-offset-1 relativite" id="bureau" onclick="essai(1);">
-                                <div class="centrer-div ecrito-equipe">LE BUREAU</div>
-                            </div>
-                            <div class="col-sm-offset-2 col-sm-4 relativite" id="equipe" onclick="essai(2)">
-                                <div class="centrer-div ecrito-equipe">L'ÉQUIPE</div>
-                            </div>
-                        </div>
-
-                        <div class="row" style="margin-top: 40px;" id="bureau-description">
-                            <p>Le bureau est le coeur décisionnaire d'Écolor. Celui-ci chapote une équipe pluridisciplinaire de 10 personnes ce qui permet à l'entreprise de bénéficier de toutes les compétences nécessaires
-                            pour mener à bien les missions qui lui sont confiées.</p>
-                            <div class="col-sm-6 espace-image">
-                                <img  class="img-circle center-block img-service" src="images/equipe/team.png">
-                                    <div class="text-center">
-                                        <span>René LANG</span>
-                                            <br>
-                                        <span>Président</span>
-                                    </div>
-                            </div>
-                            <div class="col-sm-6 espace-image">
-                                <img  class="img-circle center-block img-service" src="images/equipe/team.png">
-                                    <div class="text-center">
-                                        <span>Roger CHIAJESE</span>
-                                            <br>
-                                        <span>Trésorier</span>
-                                    </div>
-                            </div>
-                            <div class="col-sm-6 espace-image">
-                                <img  class="img-circle center-block img-service" src="images/equipe/team.png">
-                                <div class="text-center">
-                                    <span>Gilbert POIROT</span>
-                                        <br>
-                                    <span>Secrétaire</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 espace-image">
-                                <img  class="img-circle center-block img-service" src="images/equipe/team.png">
-                                <div class="text-center">
-                                    <span>Daniel BEGUIN</span>
-                                    <br>
-                                    <span>Président d'honneur / Cofondateur d'Écolor</span>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="row" style="margin-top: 40px;" id="equipe-description">
-                            <p>L'équipe constitue l'ensemble des experts d'Écolor. Leurs compétences sont variées et permettent de réaliser de diverses missions. Dans cette section, vous pouvez découvrir l'ensemble
-                            des compétences de chaque personne.</p>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/duval.jpg">
-                                <div class="text-center">
-                                    <span>Thierry DUVAL</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/visconti.jpg">
-                                <div class="text-center">
-                                    <span>Jean David VISCONTI</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/francon.jpg">
-                                <div class="text-center">
-                                    <span>Aurore FRANCON</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/kriegel.jpg">
-                                <div class="text-center">
-                                    <span>Christine KRIEGEL</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/zinck.jpg">
-                                <div class="text-center">
-                                    <span>Danièle ZINCK</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/picard.jpg">
-                                <div class="text-center">
-                                    <span>Françoise PICARD</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/halali.jpg">
-                                <div class="text-center">
-                                    <span>Marie Astrid HALALI</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/gougelin.jpg">
-                                <div class="text-center">
-                                    <span>Nathalie GOUGELIN</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/lethuillier.jpg">
-                                <div class="text-center">
-                                    <span>Sylvain LETHUILLIER</span>
-                                    <br>
-                                    <span class="competence-equipe">Voir ses compétences</span>
-                                </div>
-                            </div>
-                            <div class="col-sm-3 col-md-3 col-xs-6 espace-image">
-                                <img  class="img-circle center-block img-service border-image" src="images/equipe/durr.jpg">
-                                <div class="text-center">
-                                    <span>Thibaut DURR</span>
-                                    <br>
-                                    <span class="competence-equipe"><a href="ok.html">Voir ses compétences</a></span>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-
-                    <div class="container">
-                        <div class="row" style="margin-top: 40px;">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-mecenat">
-                                <span>MÉCÉNAT</span>
-                            </div>
-                        </div>
+                    <div class="container-fluid" id="container-question">
                         <div class="row">
-                            <div class="col-lg-12 col-md-12 col-xs-12" id="mecenat">
-
-                                <div id="description-mecenat" class="description">
-                                    <p class="smart-description"><strong>ECOLOR est heureux et fier de soutenir par ses dons ou subventions des associations d’intérêt général (solidarité,
-                                        environnement, culture, recherche...).</strong></p>
-                                </div>
-
-                            </div>
-
-                            <div class="col-lg-12 col-md-12 col-xs-12" id="mecenat-heart">
-                                <div id="" class="circle-heart">
-                                    <div id="heart-clignotant">
-                                        <svg class="heart" viewBox="0 0 32 29.6">
-                                            <path d="M23.6,0c-3.4,0-6.3,2.7-7.6,5.6C14.7,2.7,11.8,0,8.4,0C3.8,0,0,3.8,0,8.4c0,9.4,9.5,11.9,16,21.2c6.1-9.3,16-12.1,16-21.2C32,3.8,28.2,0,23.6,0z"/>
-                                        </svg>
-                                    </div>
-                                </div>
-
-                                <div id="resto">
-                                    <div class="rectangle-mecenat" style="height: 50px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">LES RESTAURANTS DU COEUR</h2>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div id="artsmonde">
-                                    <div class="rectangle-mecenat" style="height: 80px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">LES ARTS DU MONDE</h2>
-                                            <p>Actions culturelles et éducatives au Cameroun</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="yanyema">
-                                    <div class="rectangle-mecenat" style="height: 70px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">YANYEMA</h2>
-                                            <p>au Burkina Faso</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="nature-lorraine">
-                                    <div class="rectangle-mecenat" style="height: 70px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">CONSERVATOIRE DES ESPACES NATURELS DE LORRAINE</h2>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div id="somogy">
-                                    <div class="rectangle-mecenat" style="height: 90px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">FONDATION SOMOGY ET PROVERTES</h2>
-                                            <p>en Hongrie</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div id="cartography">
-                                    <div class="rectangle-mecenat" style="height: 100px; position: relative;">
-                                        <div style="width: 300px; position: absolute; top: 50%; transform:translate(0,-50%); text-align: center">
-                                            <h2 class="rectangle-mecenat-title">CENTRE FOR CARTOGRAPHY FAUNA AND FLORA</h2>
-                                            <p style="font-size: 18px;">en Slovénie</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div id="trait1"></div>
-                                <div id="trait2"></div>
-                                <div id="trait3"></div>
-                                <div id="trait4"></div>
-                                <div id="trait5"></div>
-                                <div id="trait6"></div>
-                            </div>
-                            <div id="mecenat-heart-responsive">
-                                <div class="col-md-12 col-xs-12">
-                                    <ul>
-                                        <li>Les Arts du Monde, actions culturelles et éducatives au Cameroun</li>
-                                        <li>Les Restaurants du coeur</li>
-                                        <li>Yanyema, au burkina faso</li>
-                                        <li>Conservatoire des espaces naturels de lorraine</li>
-                                        <li>Fondation somogy et provertes en Hongrie</li>
-                                        <li>Centre for cartography fauna and flora en Slovénie</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            <h1>TEST</h1>
                         </div>
                     </div>
 
-
-                    <!--
-                    <div class="container">
-                        <div class="row" style="margin-top: 40px; position: relative">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-recrutement">
-                                <span>RECRUTEMENT</span>
-                            </div>
-                            <div id="formulaire-recrutement">
-                                <div class="text-center" id="recrutement-form-title">
-                                    <p>POSTE DE CHARGÉ D’ÉTUDES FAUNE, FLORE</p>
-                                    <div id="trait7"></div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-xs-6 titresection" id="frame-recrutement1">
-                                <span>Scientifiques</span>
-                            </div>
-                            <div class="col-lg-2 col-md-4" class="recrutement-relative">
-                                <div class="circle-recrutement" style="margin-top: 35px!important;"></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-xs-6 titresection" id="frame-recrutement2">
-                                <span>Scientifiques</span>
-                            </div>
-                            <div class="col-lg-2 col-md-4" class="recrutement-relative">
-                                <div class="circle-recrutement"></div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-3 col-md-4 col-xs-6 titresection" id="frame-recrutement3">
-                                <span>Scientifiques</span>
-                            </div>
-                            <div class="col-lg-2 col-md-4" class="recrutement-relative">
-                                <div class="circle-recrutement"></div>
-                            </div>
-                        </div>
-                    </div>-->
-
-                    <div class="container">
-                        <div class="row" style="margin-top: 40px;">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-recrutement">
-                                <span>RECRUTEMENT</span>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <!-- Galerie HTML -->
-                    <div class="container">
-                    <div class="row" style="margin-top: 40px; position: relative">
-                        <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-galerie">
-                            <span>GALERIE</span>
-                        </div>
-                    </div>
-
-                        <div id="main_area">
-                            <!-- Slider -->
-                            <div class="row">
-                                <div class="col-sm-6" id="slider-thumbs">
-                                    <!-- Bottom switcher of slider -->
-                                    <ul class="hide-bullets">
-                                        <li class="col-sm-3 col-sm-offset-1 col-xs-2">
-                                            <a class="thumbnail" style="background-image: url('images/galerie/criquet-fleur.jpg')" id="carousel-selector-0"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" style="background-image: url('images/galerie/chouette-deux.jpg')" id="carousel-selector-1"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-2" style="background-image: url('images/galerie/couche-soleil.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-sm-offset-1 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-3" style="background-image: url('images/galerie/coquelicot.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-4" style="background-image: url('images/galerie/fleurs-jaune.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-5" style="background-image: url('images/galerie/libellule.jpg')"></a>
-                                        </li>
-                                        <li class="col-sm-3 col-sm-offset-1 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-6" style="background-image: url('images/galerie/martin-pecheur.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-7" style="background-image: url('images/galerie/papillon.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-8" style="background-image: url('images/galerie/moyen-duc.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-sm-offset-1 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-9" style="background-image: url('images/galerie/linaigrette.jpg')"></a>
-                                        </li>
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-10" style="background-image: url('images/galerie/brume.jpg')"></a>
-                                        </li>
-
-                                        <li class="col-sm-3 col-xs-2">
-                                            <a class="thumbnail" id="carousel-selector-11" style="background-image: url('images/galerie/nid.jpg')"></a>
-                                        </li>
-
-
-                                    </ul>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="col-xs-12" id="slider">
-                                        <!-- Top part of the slider -->
-                                        <div class="row">
-                                            <div class="col-sm-12" id="carousel-bounding-box">
-                                                <div class="carousel slide" id="myCarousel">
-                                                    <!-- Carousel items -->
-                                                    <div class="carousel-inner">
-                                                        <div class="active item" data-slide-number="0">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/criquet-fleur.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="1">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/chouette-deux.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="2">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/couche-soleil.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="3">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/coquelicot.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="4">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/fleurs-jaune.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="5">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/libellule.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="6">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/martin-pecheur.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="7">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/papillon.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="8">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/moyen-duc.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="9">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/linaigrette.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="10">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/brume.jpg')"></a>
-                                                        </div>
-
-                                                        <div class="item" data-slide-number="11">
-                                                            <a class="car-taille" style="background-image: url('images/galerie/nid.jpg')"></a>
-                                                        </div>
-
-
-                                                    </div>
-                                                    <!-- Carousel nav -->
-                                                    <a  href="#myCarousel" role="button" data-slide="prev">
-                                                        <img id="chevron-left" src="images/chevron-left.png">
-                                                    </a>
-
-                                                    <a  href="#myCarousel" role="button" data-slide="next">
-                                                        <img id="chevron-right" src="images/chevron-right.png">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--/Slider-->
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Fin de la gallery-->
-
-                    <div id="contact" class="container">
-                        <div class="row">
-                            <div class="col-lg-4 col-md-4 col-xs-6 titresection" id="container-title-contact">
-                                <span>CONTACT<span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-sm-6" id="form-contact" style="">
-                                <p id="form-title" class="text-center">Formulaire de contact</p>
-                                <div id="form-container-barre">
-
-                                    <div id="form-barre" style=""></div>
-
-
-                                </div>
-                                <form action="contact.php">
-                                    <input type="text" name="name" id="form-name" placeholder="Nom / Prénom">
-                                    <div id="mail-phone-flex">
-                                        <input type="email" name="mail" id="form-mail" placeholder="Adresse mail">
-                                        <input type="number" name="phone" id="form-phone" placeholder="Téléphone">
-                                    </div>
-                                    <textarea name="message" id="form-message" rows="10" cols="50">Votre message</textarea>
-                                    <input type="submit" value="Envoyer" id="form-button">
-                                </form>
-                            </div>
-
-
-                            <div class="col-sm-6" style="margin-left: -15px;">
-                                <div id="form-right-barre"></div>
-                                <h1 id="form-right-tittle">ECOLOR</h1>
-                                <h2 id="form-right-slogan">Bureau d'études et d'aménagements écologiques</h2>
-
-                                <div class="space-between-image form-flex-relative">
-                                    <img src="images/pointer.svg" class="small-illustration">
-                                    <span class="form-text">7 place Albert Schweitzer<br> 57930 Fénétrange</span>
-                                </div>
-
-                                <div class="space-between-image form-flex-relative">
-                                    <img src="images/phone.svg" class="small-illustration">
-                                    <span class="form-text">+33 (0)3 87 03 00 80</span>
-                                </div>
-
-                                <div class="space-between-image form-flex-relative">
-                                    <img src="images/email.svg" class="small-illustration">
-                                    <span class="form-text">ecolor.be@wanadoo.fr</span>
-                                </div>
-
-                            </div>
-                        </div>
-
-
-
-
-
-                    </div>
 
                 </div>
-
-
-
-
-
-
-
 
 
             <footer>
-                <div class="container">
-                    <!--<iframe
-                             width="100%"
-                             height="450"
-                             frameborder="0" style="border:0; margin-top: 50px"
-                             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDMFYbfMja4p_u1BouA91XCJDaYacm0q-g&q=7+Place+Albert+Schweitzer,Fénétrange" allowfullscreen>
-                     </iframe>-->
-                </div>
 
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12 text-center" id="realized">
-                            <p id="realized-text">Copyright 2017.All right Reserved - Crée par Corentin ALLEMAND</p>
-                        </div>
-                    </div>
-                </div>
             </footer>
         </div>
+
+
     </body>
 </html>
