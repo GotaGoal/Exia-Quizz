@@ -15,8 +15,7 @@ class DataManager
 		//$this->view = $view;
 		// $data_tab = array_merge($this->getLvl(1), $this->getLvl(2));
 		// $data_tab = array_merge($data_tab, $this->getLvl(3));
-		$this->final_tab = array($this->getLvl(1));
-       // , $this->getLvl(2), $this->getLvl(3)
+		$this->final_tab = array($this->getLvl(1), $this->getLvl(2), $this->getLvl(3));
 
 	}
 
