@@ -19,6 +19,8 @@ function augmentediv() {
                     $('#page-accueil').remove();
                     $('.container-question').addClass('active');
                     $('#particles-js').css("background-color", "rgb(41,204,39");
+                    $('#q').css("background-color", "rgb(41,204,39");
+                    $('#submit_on').css("background-color", "rgb(41,204,39");
 
 
                 }
@@ -61,14 +63,21 @@ function next(id,reponse,question_id)
     if(question_id <4)
     {
         $('#particles-js').css("background-color", "rgb(41,204,39");
+        $('#q').css("background-color", "rgb(41,204,39");
+        $('#submit_on').css("background-color", "rgb(41,204,39");
     }
     else if(question_id>3 && question_id<9)
     {
         $('#particles-js').css("background-color", "rgb(219,111,30");
+        $('#q').css("background-color", "rgb(219,111,30");
+        $('#submit_on').css("background-color", "rgb(219,111,30");
     }
     else if(question_id>8)
     {
         $('#particles-js').css("background-color", "rgb(255,36,0");
+        $('#q').css("background-color", "rgb(255,36,0");
+        $('#submit_on').css("background-color", "rgb(255,36,0");
+
     }
 
     if(question_id == 14)
