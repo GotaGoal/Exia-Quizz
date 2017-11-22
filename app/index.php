@@ -86,7 +86,7 @@ $resume_tab = $manager->getTab();
                                 echo 'style="display:none;"';
                             }?>>
                                 <div class="row bloc-question">
-                                    <div class="question">
+                                    <div class="question" id="q">
                                         <h3 class="title-question"><span class="label label-warning qid"
                                                                          id="qid"><?php echo $compteur_total +1?></span>
                                             <span id="question"><?php echo $resume_tab[$q][$i]['intitule'] ?></span>
