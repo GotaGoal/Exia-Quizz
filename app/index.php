@@ -30,3 +30,7 @@ include("controller/DataManager.php");
 $bdd = SPDO::getInstance()->getPDO();
 
 $manager = new DataManager($bdd);
+$ok = $manager->getTab();
+
+echo $ok[0][0]['index'];
+print_r($ok);
